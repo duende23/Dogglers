@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/ivDogImage"
+        android:layout_width="match_parent"
+        android:layout_height="194dp"
+        android:importantForAccessibility="no"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:src="@tools:sample/backgrounds/scenic"/>
+
+
+    <TextView
+        android:id="@+id/tvDogName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ivDogImage"
+        tools:text="@tools:sample/first_names"
+        android:textAppearance="?attr/textAppearanceHeadline6"
+        />
+
+    <TextView
+        android:id="@+id/tvDogAge"
+        android:layout_marginStart="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/tvDogName"
+        app:layout_constraintTop_toBottomOf="@id/ivDogImage"
+        tools:text="@tools:sample/us_zipcodes"
+        android:textAppearance="?attr/textAppearanceHeadline6"
+        />
+
+    <TextView
+        android:id="@+id/tvDogHobbies"
+        android:layout_marginStart="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/tvDogAge"
+        app:layout_constraintTop_toBottomOf="@id/ivDogImage"
+        tools:text="@tools:sample/lorem"
+        android:textAppearance="?attr/textAppearanceHeadline6"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Dogglers</string>
+    <string name="bt_horizontal_layout">Horizontal Layout</string>
+    <string name="bt_vertical_layout">Vertical Layout</string>
+    <string name="tv_dog_Name">Bella</string>
+    <string name="tv_dog_Age">19</string>
+    <string name="tv_dog_hobbies">Correr, jugar, saltar</string>
+    <string name="bt_grid_layout">Grid Layout</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
